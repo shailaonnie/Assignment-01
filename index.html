@@ -39,16 +39,19 @@
 
     <!-- hero section-- -->
     <header>
-      <div class="hero">
-        <h1>Code. Connect. Create</h1>
-        <p>
-          Join 4,000+ engineers, founders, and builders at the premier developer
-          <br />
-          conference of 2026. Three days of cutting-edge talks, hands-on
-          workshops, <br />
-          and meaningful connections.
-        </p>
-        <button class="pri-btn">Register Now</button>
+      <div class="container">
+        <div class="hero">
+          <h1>Code. Connect. Create</h1>
+          <p>
+            Join 4,000+ engineers, founders, and builders at the premier
+            developer
+            <br />
+            conference of 2026. Three days of cutting-edge talks, hands-on
+            workshops, <br />
+            and meaningful connections.
+          </p>
+          <button class="pri-btn">Register Now</button>
+        </div>
       </div>
     </header>
 
@@ -105,7 +108,6 @@
       </div>
 
       <!-- Card Pricing-- -->
-
       <div class="container">
         <section>
           <div class="pcard-text">
@@ -155,6 +157,77 @@
           </div>
         </section>
       </div>
+
+      <!-- Registration-- -->
+
+      <div class="conatiner">
+        <section>
+          <div class="r-heading">
+            <h2>Join The Conference</h2>
+            <p>Seat Your Book</p>
+          </div>
+
+          <div class="rg-box">
+            <div class="left">
+              <h2>Workshops By Google, Microsoft, Open AI</h2>
+              <h3>What you will learn</h3>
+              <p>Frontend HTML CSS JS React</p>
+              <p>Backend Node JS</p>
+              <p>Full Stack Web Engineering</p>
+            </div>
+            <div class="right-form">
+              <h2>Registration Form</h2>
+              <form class="registration-form">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="ticket">Ticket Type</label>
+                  <select id="ticket" name="ticket">
+                    <option>Standard</option>
+                    <option>Pro</option>
+                    <option>Team</option>
+                  </select>
+                </div>
+
+                <button class="sub-btn" type="submit">Register Now</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
+    <footer>
+      <div class="container"></div>
+    </footer>
   </body>
 </html>
