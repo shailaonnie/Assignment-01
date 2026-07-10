@@ -250,6 +250,7 @@ header {
   background-color: #0d1b2a;
   color: azure;
   padding: 10px;
+  width: 100%;
 }
 
 .right-form h2 {
@@ -265,30 +266,33 @@ header {
   flex-direction: column;
   display: grid;
   flex-wrap: wrap;
-  margin: 40px 0px;
+  margin: 30px 0px;
   gap: 25px;
   width: 100%;
 }
 
 .form-group {
   width: 100%;
+  border: 1px solid whitesmoke;
+  padding: 10px;
 }
 .form-group label {
   display: block;
   padding: 0px 0px 10px;
-  width: 500px;
+  width: 450px;
 }
 
 .form-group input,
 select {
   padding: 5px;
-  width: 500px;
+  width: 450px;
 }
 
 .sub-btn {
   padding: 10px 0px;
   background-color: #2563eb;
   color: whitesmoke;
+  font-size: 14px;
 }
 
 footer {
